@@ -86,6 +86,8 @@ $table_prefix = 'py93';
  */
 define('WP_DEBUG', false);
 
+define('ALLOW_UNFILTERED_UPLOADS', true);  
+
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
 
 /** Chemin absolu vers le dossier de WordPress. */
