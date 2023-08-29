@@ -10341,7 +10341,7 @@ msgid "Search engine visibility"
 msgstr "Visibilité par les moteurs de recherche"
 
 #. translators: 1: WordPress version, 2: URL to About screen.
-#: wp-admin/includes/update-core.php:1708 wp-admin/update-core.php:912
+#: wp-admin/includes/update-core.php:1712 wp-admin/update-core.php:912
 msgid "Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href=\"%2$s\">here</a>."
 msgstr "Bienvenue sur WordPress %1$s. Vous allez être redirigé vers l’écran « À propos » de WordPress. Si ce n’est pas le cas, cliquez <a href=\"%2$s\">ici</a>."
 
@@ -11121,7 +11121,7 @@ msgid "This screen allows you to choose your permalink structure. You can choose
 msgstr "Cet écran vous permet de choisir la structure de permalien par défaut. Vous pouvez choisir les réglages les plus courants, ou créer votre propre structure de liens."
 
 #. translators: 1: WordPress version, 2: URL to About screen.
-#: wp-admin/includes/update-core.php:1716 wp-admin/update-core.php:920
+#: wp-admin/includes/update-core.php:1720 wp-admin/update-core.php:920
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Bienvenue sur WordPress %1$s. <a href=\"%2$s\">En savoir plus</a>."
 
@@ -13118,7 +13118,7 @@ msgid "User already exists. Password inherited."
 msgstr "Le compte existe déjà et a hérité du mot de passe."
 
 #: wp-admin/includes/class-wp-automatic-updater.php:485
-#: wp-admin/includes/update-core.php:1702 wp-admin/update-core.php:908
+#: wp-admin/includes/update-core.php:1706 wp-admin/update-core.php:908
 msgid "WordPress updated successfully."
 msgstr "WordPress a bien été mis à jour."
 
@@ -14350,7 +14350,7 @@ msgstr "Mettre à jour vers la version %s"
 msgid "You are using a development version (%1$s). Cool! Please <a href=\"%2$s\">stay updated</a>."
 msgstr "Vous utilisez une version de développement (%1$s). C’est super ! Veillez à <a href=\"%2$s\">rester à jour</a>."
 
-#: wp-admin/includes/update-core.php:1575
+#: wp-admin/includes/update-core.php:1579
 msgid "Upgrading database&#8230;"
 msgstr "Mise à jour de la base de données&#8230;"
 
@@ -15324,7 +15324,7 @@ msgid "Empty archive."
 msgstr "Archive vide."
 
 #: wp-admin/includes/file.php:1778 wp-admin/includes/file.php:1908
-#: wp-admin/includes/file.php:1961 wp-admin/includes/update-core.php:1513
+#: wp-admin/includes/file.php:1961 wp-admin/includes/update-core.php:1517
 msgid "Could not copy file."
 msgstr "Impossible de copier le fichier."
 
@@ -15633,7 +15633,7 @@ msgid "The plugin is at the latest version."
 msgstr "Vous avez la dernière version de cette extension."
 
 #: wp-admin/includes/class-wp-upgrader.php:207
-#: wp-admin/includes/update-core.php:1460
+#: wp-admin/includes/update-core.php:1464
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "Désactivation du mode maintenance&#8230;"
 

@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --color1: #3b8e46;
+  --color2: #dc9f96;
+  --color3: #c02e44;
+  --color4: #ece2da;
+  --color5: rgb(18, 19, 19);
+  --color6: #d2776a;
+  --color7: #e0b9b4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color5);
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  line-height: 27px;
+}
+body {
+  font-family: "Syne", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.header img {
+  width: 150px;
+  margin: 0 auto;
+}
+.site__header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site__header__menu li {
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 25px 0;
+  width: 160px;
+}
+.site__header__menu li:hover {
+  background-color: var(--color3);
+  color: white;
+}
+
+.site__header__menu li:active {
+  background-color: var(--color3); /* Couleur de fond pour l'état actif */
+  color: white; /* Couleur du texte pour l'état actif */
+}
+
+.infos h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--color1);
+  margin: 70px 0 50px 0;
+}
+
+.Section-energy-drink {
+  width: 100%;
+  background-color: var(--color4);
+}
+.Section-energy-drink h1 {
+  font-size: 38px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color1);
+  padding: 50px 0;
+}
+.section-bas-drink {
+  height: 60px;
+  width: 100%;
+  background-color: var(--color4);
+  border-radius: 0 0 80% 80%;
+  box-shadow: 0 10px 0 #dcd5cf;
+}
+.section-gouts {
+  padding: 50px 0;
+  border-radius: 0 0 2% 2%;
+  box-shadow: 0 10px 0 #dcd5cf;
+  background-color: var(--color4);
+}
+.section-gouts h3 {
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color6);
+}
+.section-gouts p {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  font-family: "Syne", sans-serif;
+  margin-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.article-fruits {
+  display: flex;
+  flex-wrap: wrap;
+  width: 850px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.titre-fruit h3 {
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 45px;
+  color: white;
+}
+.fraise {
+  position: relative;
+}
+.pamplemousse {
+  position: relative;
+}
+.framboise {
+  position: relative;
+}
+.citron {
+  position: relative;
+}
+.btn-commander {
+  padding: 20px 70px;
+  background-color: var(--color7);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto 20px;
+}
+.btn-commander a {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+}
+.section-avis {
+  background-color: white;
+}
+.card-content {
+  display: flex;
+  justify-content: space-between;
+}
+/* .size-full {
+  width: 125px;
+  height: 150px;
+} */
