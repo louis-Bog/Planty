@@ -163,14 +163,137 @@ body {
   letter-spacing: 2px;
   color: white;
 }
-.section-avis {
-  background-color: white;
+.content-avis {
+  background: white;
 }
-.card-content {
+.content-avis h3 {
+  font-size: 30px;
+  color: var(--color1);
+  margin: 80px 0;
+  font-weight: 800;
+}
+.content-users-avis {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
 }
-/* .size-full {
-  width: 125px;
+.user-avis {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.user-avis img {
+  width: 140px;
+  height: 170px;
+}
+.user-pseudo-texte h4 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 20px;
+  color: var(--color1);
+}
+.user-pseudo-texte p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin: 10px 0;
+  color: black;
+}
+.img-canettes img {
+  width: 100%;
+  height: 200px;
+}
+.site__footer {
+  height: 50px;
+}
+.site__footer h5 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+/* Page nous rencontrer */
+
+.nous-rencontrer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color4);
+  align-content: center;
+  margin: 0 auto;
+  gap: 50px;
+  border-radius: 0 0 20% 20%;
+}
+.nous-rencontrer img {
+  width: 150px;
   height: 150px;
+  margin-top: 50px;
+}
+.nous-rencontrer h1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: var(--color6);
+  margin-top: 150px;
+}
+.nous-rencontrer p {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  margin: 30px 0 70px;
+}
+
+/* Page nous rencontrer - Section equipe */
+
+.equipe {
+  background-color: white;
+  position: relative;
+}
+.equipe h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  margin: 50px 0;
+}
+.equipe .user-equipe {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.profil-user-equipe {
+  display: flex;
+  flex-direction: column;
+}
+.profil-user-equipe h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+/* h3 .reglage {
+  margin-top: 20px;
 } */
+.profil-user-equipe p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.img-branche img {
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  right: 500px;
+  bottom: -70px;
+}
+
+/* Page nous rencontrer - Section nous-contacter */
+
+.nous-contacter {
+  background-color: var(--color4);
+  margin-top: 70px;
+}
+.nous-contacter h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  padding: 50px 0;
+}

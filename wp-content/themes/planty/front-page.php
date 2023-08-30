@@ -1,3 +1,8 @@
+<?php
+/*
+  Template Name: Accueil
+*/
+?>
 <?php get_header(); ?>
 <section class="main">
     <section class="content">
@@ -98,6 +103,69 @@
                 </section>
             <?php endwhile;
             endif; ?>
+    </section>
+    <section class="content-avis">
+        <h3> <?php the_field('titre-avis'); ?></h3>
+        <section class="content-users-avis">
+            <section class="user-avis">
+            <?php
+                $image_id = get_field('img-fatiha');
+                    if ($image_id) {
+                        echo wp_get_attachment_image($image_id, 'full');
+                                    } ?>
+                <div class="user-pseudo-texte">
+                <h4>
+                    <?php the_field('pseudo-fatiha'); ?>
+                </h4>
+                    <p>
+                        <?php echo wp_kses_post(get_field('message-fatiha')); ?>
+                    </p>
+                
+                </div>
+
+            </section>
+            <section class="user-avis">
+            <?php
+                $image_id = get_field('img-vero');
+                    if ($image_id) {
+                        echo wp_get_attachment_image($image_id, 'full');
+                                    } ?>
+                <div class="user-pseudo-texte">
+                <h4>
+                    <?php the_field('pseudo-vero'); ?>
+                </h4>
+                    <p>
+                        <?php echo wp_kses_post(get_field('message-vero')); ?>
+                    </p>
+                
+                </div>
+
+            </section>
+            <section class="user-avis">
+            <?php
+                $image_id = get_field('img-marc');
+                    if ($image_id) {
+                        echo wp_get_attachment_image($image_id, 'full');
+                                    } ?>
+                <div class="user-pseudo-texte">
+                <h4>
+                    <?php the_field('pseudo-marc'); ?>
+                </h4>
+                    <p>
+                        <?php echo wp_kses_post(get_field('message-marc')); ?>
+                    </p>
+                
+                </div>
+
+            </section>
+        </section>
+    </section>
+    <section class="img-canettes">
+    <?php
+                $image_id = get_field('img-canettes');
+                    if ($image_id) {
+                        echo wp_get_attachment_image($image_id, 'full');
+                                    } ?>
     </section>
 </section>
 <?php get_footer(); ?>

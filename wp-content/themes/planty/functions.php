@@ -24,6 +24,9 @@ function planty_register_assets() {
 
      // Chargement de la feuille de style complémentaire du thème enfant
       wp_enqueue_style( 'planty-child-theme', get_stylesheet_directory_uri() . '/assets/css/main.css' );
+
+       // Chargement de la feuille de style complémentaire du thème enfant
+       wp_enqueue_style( 'planty-child-theme', get_stylesheet_directory_uri() . '/assets/css/rencontrer.css' );
 }
 add_action( 'wp_enqueue_scripts', 'planty_register_assets' );
 
