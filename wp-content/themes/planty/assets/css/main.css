@@ -67,9 +67,10 @@ body {
   color: white;
 }
 
-.site__header__menu li:active {
-  background-color: var(--color3); /* Couleur de fond pour l'état actif */
-  color: white; /* Couleur du texte pour l'état actif */
+.site__header__menu li.current-menu-item,
+.site__header__menu li.current-menu-item a {
+  background-color: var(--color6); /* Couleur de fond pour l'état actif */
+  color: white;
 }
 
 .infos h2 {
@@ -188,6 +189,9 @@ body {
   width: 140px;
   height: 170px;
 }
+.user-pseudo-texte {
+  width: 300px;
+}
 .user-pseudo-texte h4 {
   font-size: 30px;
   font-weight: 700;
@@ -281,7 +285,7 @@ body {
   width: 200px;
   height: 250px;
   position: absolute;
-  right: 500px;
+  right: 18vw;
   bottom: -70px;
 }
 
@@ -296,4 +300,41 @@ body {
   color: black;
   font-weight: 700;
   padding: 50px 0;
+}
+.nous-contacter .img-canettes img {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  right: 18vw;
+  bottom: -70px;
+}
+
+/* Page nous rencontrer - Section Formulaire */
+h4 {
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+  margin-right: 20px;
+}
+.submit {
+  padding-left: 80px;
+}
+.wpcf7-submit {
+  align-items: center !important;
+  border-radius: 3px;
+  width: 120px !important;
+  height: 50px !important;
+}
+
+.has-spinner {
+  font-size: 13px !important;
+  font-weight: 200 !important;
+}
+
+.wpcf7-form-control {
+  border: none !important;
+  border-radius: 7px !important;
+}
+span.wpcf7-form-control-wrap {
+  height: 50px !important;
 }

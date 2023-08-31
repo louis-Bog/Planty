@@ -1,8 +1,3 @@
-<?php
-/*
-  Template Name: Accueil
-*/
-?>
 <?php get_header(); ?>
 <section class="main">
     <section class="content">
@@ -11,7 +6,7 @@
                 the_post(); ?>
                 <section class="Section-energy-drink">
                     <h1>
-                        <?php the_field('presentation'); ?>
+                    Coucou<?php the_field('presentation'); ?>
                     </h1>
 
                     <?php
