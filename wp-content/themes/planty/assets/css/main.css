@@ -294,6 +294,7 @@ body {
 .nous-contacter {
   background-color: var(--color4);
   margin-top: 70px;
+  position: relative;
 }
 .nous-contacter h2 {
   font-size: 30px;
@@ -311,10 +312,19 @@ body {
 
 /* Page nous rencontrer - Section Formulaire */
 h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   color: black;
-  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.nom {
+  margin-right: 325px;
+}
+.email {
+  margin-right: 313px;
+}
+.message {
+  margin-right: 290px;
 }
 .submit {
   padding-left: 80px;
@@ -334,7 +344,21 @@ h4 {
 .wpcf7-form-control {
   border: none !important;
   border-radius: 7px !important;
+  position: relative;
+  z-index: 2;
+  width: 18vw;
+  height: 50px;
+  margin-bottom: 15px;
 }
-span.wpcf7-form-control-wrap {
-  height: 50px !important;
+
+.img-feuille-form img.attachment-full {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  right: 54vw;
+  bottom: 3vh;
+  z-index: 1;
+}
+.nous-contacter .wpcf7-textarea {
+  height: 200px;
 }

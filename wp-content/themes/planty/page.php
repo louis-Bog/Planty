@@ -84,8 +84,24 @@
             <h2>
                 <?php the_field('titre-nous-contacter'); ?>
             </h2>
+			<div>
             <?php echo do_shortcode('[contact-form-7 id="32d71d0" title="Nous contacter"]');
             ?>
+			</div>
+			 <div class="img-feuille-form">
+                 <?php
+                $image_id = get_field('img-feuille-form');
+                    if ($image_id) {
+                        echo wp_get_attachment_image($image_id, 'full');
+                                } ?>
+			 </div>
+			 <div class="img-canettes">
+    <?php
+                $image_id = get_field('img-canettes');
+                    if ($image_id) {
+                        echo wp_get_attachment_image($image_id, 'full');
+                                    } ?>
+    			</div>
         </section>
 
     </section>

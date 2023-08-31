@@ -24,8 +24,6 @@
             <h2>
                 <?php the_field('infos-h2'); ?>
             </h2>
-
-            <!– Avec le réglage nouveau paragraphe –>
                 <p>
                     <?php echo wp_kses_post(get_field('infos-paragraphe')); ?>
                 </p>
@@ -39,7 +37,6 @@
                     <h3>
                         <?php the_field('les_gouts'); ?>
                     </h3>
-                    <!– Avec le réglage nouveau paragraphe –>
                         <p>
                             <?php echo wp_kses_post(get_field('gouts-paragraphe')); ?>
                         </p>
