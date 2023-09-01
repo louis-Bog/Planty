@@ -95,17 +95,16 @@
                         echo wp_get_attachment_image($image_id, 'full');
                                 } ?>
 			 </div>
-			 <div class="img-canettes">
+			 <div class="img-canettes-form">
     <?php
-                $image_id = get_field('img-canettes');
+                $image_id = get_field('img-canettes-form');
                     if ($image_id) {
                         echo wp_get_attachment_image($image_id, 'full');
                                     } ?>
     			</div>
         </section>
-
-    </section>
-<?php
+        <?php
 	endwhile; endif;
-	get_footer();
 ?>
+<?php get_footer(); ?>
+    </section>

@@ -62,8 +62,12 @@ body {
   padding: 25px 0;
   width: 160px;
 }
-.site__header__menu li:hover {
+.site__header__menu li:hover,
+li a:hover {
   background-color: var(--color3);
+  color: white;
+}
+.site__header__menu li a:hover {
   color: white;
 }
 
@@ -222,6 +226,7 @@ body {
 /* Page nous rencontrer */
 
 .nous-rencontrer {
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: var(--color4);
@@ -274,9 +279,7 @@ body {
   font-weight: 700;
   margin: 20px 0;
 }
-/* h3 .reglage {
-  margin-top: 20px;
-} */
+
 .profil-user-equipe p {
   font-size: 20px;
   font-weight: 400;
@@ -326,21 +329,28 @@ h4 {
 .message {
   margin-right: 290px;
 }
-.submit {
-  padding-left: 80px;
-}
-.wpcf7-submit {
+
+.wpcf7-form-control .wpcf7-submit {
   align-items: center !important;
   border-radius: 3px;
-  width: 120px !important;
+  width: 150px !important;
   height: 50px !important;
+  margin-bottom: 20px;
 }
 
 .has-spinner {
   font-size: 13px !important;
   font-weight: 200 !important;
+  margin-bottom: 10vh !important;
+  margin-top: 2vh !important;
+  margin-left: 50px;
+  width: 150px !important;
+  background-color: var(--color2);
+  color: white;
 }
-
+.has-spinner:hover {
+  background-color: var(--color3);
+}
 .wpcf7-form-control {
   border: none !important;
   border-radius: 7px !important;
@@ -351,14 +361,24 @@ h4 {
   margin-bottom: 15px;
 }
 
-.img-feuille-form img.attachment-full {
+.nous-contacter .img-feuille-form img.attachment-full {
   width: 180px;
   height: 180px;
   position: absolute;
   right: 54vw;
-  bottom: 3vh;
+  bottom: 30vh;
   z-index: 1;
 }
 .nous-contacter .wpcf7-textarea {
   height: 200px;
+}
+.nous-contacter .img-canettes-form img {
+  width: 100%;
+  height: 200px;
+}
+.nous-contacter img.attachment-full .img-canettes-form {
+  position: absolute !important;
+  right: 18vw !important;
+  bottom: -10vh !important;
+  z-index: 2 !important;
 }
