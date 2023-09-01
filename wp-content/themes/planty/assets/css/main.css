@@ -382,3 +382,104 @@ h4 {
   bottom: -10vh !important;
   z-index: 2 !important;
 }
+
+/* Page Commander - Section Votre commande */
+
+.bg-commander {
+  height: 100vh;
+  background-color: var(--color1);
+  position: relative;
+}
+.section-global-width {
+  width: 40%;
+  margin: 0 auto;
+}
+.section-global-width .votre-commande h1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+  padding-top: 5vh;
+}
+.section-global-width .votre-commande h1:before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: white;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.choix-commande {
+  margin-top: 10vh;
+}
+.choix-commande h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  margin-bottom: 5vh;
+}
+.choix-commande h2:before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Page Commander - Section Votre commande */
+.commande-article-flex {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.commande-article-colonne {
+  display: flex;
+  flex-direction: column;
+  width: 193px;
+  gap: 10px;
+}
+.commande-article-colonne .compteur {
+  display: flex;
+  height: 50px;
+  gap: 1px;
+}
+.commande-article-colonne .compteur .valeur {
+  width: 50px;
+  height: 50px;
+}
+.compteur-value {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 10% 0 0 10%;
+  text-align: center;
+  font-size: 16px;
+}
+.bouton {
+  display: flex;
+  flex-direction: column;
+  width: 13px;
+  gap: 1px;
+}
+.compteur-button {
+  height: 50px;
+  background-color: var(--color6);
+  color: white;
+  width: 20px;
+  border: none;
+  border-radius: 10%;
+}
+.valider-button {
+  width: 115px;
+  margin-left: 14px;
+  background-color: var(--color2);
+  color: white;
+  border: none;
+  border: none;
+  border-radius: 5%;
+}

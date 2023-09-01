@@ -6,7 +6,7 @@
                 the_post(); ?>
                 <section class="Section-energy-drink">
                     <h1>
-                    Coucou<?php the_field('presentation'); ?>
+                    <?php the_field('presentation'); ?>
                     </h1>
 
                     <?php
