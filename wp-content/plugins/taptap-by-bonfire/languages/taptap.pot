@@ -1,0 +1,1458 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-01-13 10:36+0200\n"
+"PO-Revision-Date: 2021-01-08 12:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: include.php:65 taptap.php:2021
+msgid "View your shopping cart"
+msgstr ""
+
+#: include.php:110
+msgid "enter search term"
+msgstr ""
+
+#: taptap.php:22
+msgid "TapTap Plugin"
+msgstr ""
+
+#: taptap.php:28 taptap.php:91
+msgid "Menu Button"
+msgstr ""
+
+#: taptap.php:33
+msgid "Hide menu button"
+msgstr ""
+
+#: taptap.php:33
+msgid ""
+"Menu label will remain visible (if one is entered below). If hiding for the "
+"purpose of using a custom activation element, give the element the \"taptap-"
+"custom-activator\" class)."
+msgstr ""
+
+#: taptap.php:38
+msgid "Open on hover"
+msgstr ""
+
+#: taptap.php:38
+msgid ""
+"Menu will be opened when mouse is moved over menu button. On touch devices, "
+"menu will still open by tap."
+msgstr ""
+
+#: taptap.php:46
+msgid "Button style"
+msgstr ""
+
+#: taptap.php:61
+msgid "Show thin menu button variations"
+msgstr ""
+
+#: taptap.php:69
+msgid "Menu button animation"
+msgstr ""
+
+#: taptap.php:81 taptap.php:549
+msgid "Animation speed (in seconds)"
+msgstr ""
+
+#: taptap.php:81
+msgid ""
+"Also applies to logo and search elements (for unified hover speed "
+"appearance). Example: 0.5. If empty, defaults to 0.25"
+msgstr ""
+
+#: taptap.php:86 taptap.php:1593
+msgid "Opacity"
+msgstr ""
+
+#: taptap.php:86 taptap.php:601
+msgid "Example: 0.5. If empty, defaults to 1"
+msgstr ""
+
+#: taptap.php:97
+msgid "Menu Button Hover"
+msgstr ""
+
+#: taptap.php:103
+msgid "Menu Button (active)"
+msgstr ""
+
+#: taptap.php:109
+msgid "Menu Button Hover (active)"
+msgstr ""
+
+#: taptap.php:118
+msgid "Menu button position"
+msgstr ""
+
+#: taptap.php:129 taptap.php:242 taptap.php:394 taptap.php:451 taptap.php:1409
+msgid "Top distance (in pixels)"
+msgstr ""
+
+#: taptap.php:129 taptap.php:451
+msgid "Example: 25. If empty, defaults to 10"
+msgstr ""
+
+#: taptap.php:134 taptap.php:247 taptap.php:399 taptap.php:456
+msgid "Left/right distance (in pixels)"
+msgstr ""
+
+#: taptap.php:134 taptap.php:247
+msgid "Example: 35. If empty, defaults to 15"
+msgstr ""
+
+#: taptap.php:139 taptap.php:164 taptap.php:461 taptap.php:476
+msgid "Label"
+msgstr ""
+
+#: taptap.php:139 taptap.php:461
+msgid "If empty, no label will be shown"
+msgstr ""
+
+#: taptap.php:144
+msgid "Secondary label"
+msgstr ""
+
+#: taptap.php:144
+msgid "Secondary label is displayed when menu is opened."
+msgstr ""
+
+#: taptap.php:149
+msgid "Hide label when menu opened"
+msgstr ""
+
+#: taptap.php:154 taptap.php:466
+msgid "Label horizontal position (in pixels)"
+msgstr ""
+
+#: taptap.php:154
+msgid ""
+"Label position is relative to the menu button. Negative values accepted. If "
+"empty, defaults to 40 (if empty when menu button is hidden, defaults to 0)"
+msgstr ""
+
+#: taptap.php:159 taptap.php:471
+msgid "Label vertical position (in pixels)"
+msgstr ""
+
+#: taptap.php:159
+msgid ""
+"Label position is relative to the menu button. Negative values accepted. If "
+"empty, defaults to 6 (if empty when menu button is hidden, defaults to 0)"
+msgstr ""
+
+#: taptap.php:170 taptap.php:482
+msgid "Label Hover"
+msgstr ""
+
+#: taptap.php:176 taptap.php:488
+msgid "Label font size (in pixels)"
+msgstr ""
+
+#: taptap.php:176 taptap.php:488 taptap.php:1292 taptap.php:1313
+#: taptap.php:1359 taptap.php:1364
+msgid "If empty, defaults to 11"
+msgstr ""
+
+#: taptap.php:181 taptap.php:493
+msgid "Label letter spacing (in pixels)"
+msgstr ""
+
+#: taptap.php:181 taptap.php:296 taptap.php:493 taptap.php:611 taptap.php:964
+#: taptap.php:1036 taptap.php:1154 taptap.php:1159 taptap.php:1318
+#: taptap.php:1419 taptap.php:1464 taptap.php:1554
+msgid "If empty, defaults to 0"
+msgstr ""
+
+#: taptap.php:189 taptap.php:304 taptap.php:501 taptap.php:619 taptap.php:977
+#: taptap.php:1049 taptap.php:1233 taptap.php:1326 taptap.php:1432
+#: taptap.php:1477
+msgid "Font"
+msgstr ""
+
+#: taptap.php:211 taptap.php:326 taptap.php:523 taptap.php:641 taptap.php:999
+#: taptap.php:1071 taptap.php:1255 taptap.php:1348 taptap.php:1499
+msgid "Advanced feature: Use theme fonts"
+msgstr ""
+
+#: taptap.php:211 taptap.php:326 taptap.php:523 taptap.php:641 taptap.php:999
+#: taptap.php:1071 taptap.php:1255 taptap.php:1348 taptap.php:1454
+#: taptap.php:1499
+msgid ""
+"If you know the name of and would like to use your theme font(s), enter it "
+"in the textfield below as it appears in the theme stylesheet (font "
+"selection will be automatically overriden)."
+msgstr ""
+
+#: taptap.php:217 taptap.php:279
+msgid "Logo"
+msgstr ""
+
+#: taptap.php:222
+msgid "Hide logo"
+msgstr ""
+
+#: taptap.php:222
+msgid "If selected, logo will not be displayed."
+msgstr ""
+
+#: taptap.php:230
+msgid "Logo position"
+msgstr ""
+
+#: taptap.php:242
+msgid "Example: 35. If empty, defaults to 23"
+msgstr ""
+
+#: taptap.php:253
+msgid "Upload logo image"
+msgstr ""
+
+#: taptap.php:254
+msgid ""
+"<strong>How to add retina logo:</strong> Enable retina script in Misc "
+"section, then upload both the regular and retina logo files and make sure "
+"they are named correctly. If retina logo is uploaded, it will be shown on "
+"retina screens with no further setup necessary. <br><br> Example:<br> my-"
+"logo.png and my-logo@2x.png (note that the retina logo must have \"@2x\" at "
+"the end. @3x images work as well.).<br><br>"
+msgstr ""
+
+#: taptap.php:264
+msgid "Upload secondary logo image"
+msgstr ""
+
+#: taptap.php:265
+msgid ""
+"This image will replace the original logo image when the menu is opened. "
+"Useful if you would like to switch to a logo with a different color scheme "
+"when the menu is open."
+msgstr ""
+
+#: taptap.php:274
+msgid "Maximum logo image height (in pixels)"
+msgstr ""
+
+#: taptap.php:274
+msgid "Maximum height of logo image. If empty, defaults to 35"
+msgstr ""
+
+#: taptap.php:285
+msgid "Logo Hover"
+msgstr ""
+
+#: taptap.php:291 taptap.php:606 taptap.php:959 taptap.php:1031
+#: taptap.php:1459
+msgid "Font size (in pixels)"
+msgstr ""
+
+#: taptap.php:291 taptap.php:959 taptap.php:1134
+msgid "If empty, defaults to 14"
+msgstr ""
+
+#: taptap.php:296 taptap.php:611 taptap.php:964 taptap.php:1036
+#: taptap.php:1464
+msgid "Letter spacing (in pixels)"
+msgstr ""
+
+#: taptap.php:332
+msgid "WooCommerce Shopping Cart Button"
+msgstr ""
+
+#: taptap.php:337
+msgid "Display shopping cart button"
+msgstr ""
+
+#: taptap.php:337
+msgid "When enabled, icon will be shown when WooCommerce also activated."
+msgstr ""
+
+#: taptap.php:345 taptap.php:1379
+msgid "Icon"
+msgstr ""
+
+#: taptap.php:356
+msgid "Icon color"
+msgstr ""
+
+#: taptap.php:362
+msgid "Icon color (hover)"
+msgstr ""
+
+#: taptap.php:368
+msgid "Item count color"
+msgstr ""
+
+#: taptap.php:374
+msgid "Item count background color"
+msgstr ""
+
+#: taptap.php:383
+msgid "Woo button position"
+msgstr ""
+
+#: taptap.php:394
+msgid "Example: 25"
+msgstr ""
+
+#: taptap.php:399
+msgid "Example: 35"
+msgstr ""
+
+#: taptap.php:405 taptap.php:425
+msgid "Search Button"
+msgstr ""
+
+#: taptap.php:410
+msgid "Hide search"
+msgstr ""
+
+#: taptap.php:410
+msgid "Search label will remain visible (if one is entered below)."
+msgstr ""
+
+#: taptap.php:415
+msgid "Show thin search button variation"
+msgstr ""
+
+#: taptap.php:420
+msgid "Flip search button"
+msgstr ""
+
+#: taptap.php:431
+msgid "Search Button Hover"
+msgstr ""
+
+#: taptap.php:440
+msgid "Search button position"
+msgstr ""
+
+#: taptap.php:456
+msgid "Example: 35. If empty, defaults to 10"
+msgstr ""
+
+#: taptap.php:466
+msgid ""
+"Label position is relative to the search button. Negative values accepted. "
+"If empty, defaults to -55 (if empty when search button is hidden, defaults "
+"to 0)"
+msgstr ""
+
+#: taptap.php:471
+msgid ""
+"Label position is relative to the search button. Negative values accepted. "
+"If empty, defaults to 6 (if empty when search button is hidden, defaults to "
+"0)"
+msgstr ""
+
+#: taptap.php:529
+msgid "Search Field & Overlay"
+msgstr ""
+
+#: taptap.php:534
+msgid "Search field height (in pixels)"
+msgstr ""
+
+#: taptap.php:534 taptap.php:668
+msgid "If empty, defaults to 65"
+msgstr ""
+
+#: taptap.php:539 taptap.php:583
+msgid "Search field placeholder text"
+msgstr ""
+
+#: taptap.php:539
+msgid "If empty, defaults to \"enter search term\""
+msgstr ""
+
+#: taptap.php:544
+msgid "Align search field text to right"
+msgstr ""
+
+#: taptap.php:549
+msgid "Example: 0.5. If empty, defaults to 0.25"
+msgstr ""
+
+#: taptap.php:554
+msgid "Hide clear field function"
+msgstr ""
+
+#: taptap.php:559
+msgid "Close search button"
+msgstr ""
+
+#: taptap.php:565
+msgid "Close search button hover"
+msgstr ""
+
+#: taptap.php:571
+msgid "Clear search field button"
+msgstr ""
+
+#: taptap.php:577
+msgid "Clear search field button hover"
+msgstr ""
+
+#: taptap.php:589
+msgid "Search field text"
+msgstr ""
+
+#: taptap.php:595
+msgid "Search field background"
+msgstr ""
+
+#: taptap.php:601
+msgid "Search field background opacity"
+msgstr ""
+
+#: taptap.php:606
+msgid "If empty, defaults to 15"
+msgstr ""
+
+#: taptap.php:646 taptap.php:926
+msgid "Overlay"
+msgstr ""
+
+#: taptap.php:652 taptap.php:932
+msgid "Overlay opacity"
+msgstr ""
+
+#: taptap.php:652 taptap.php:932
+msgid "From 0-1 (example: 0.5) If empty, defaults to 0.5"
+msgstr ""
+
+#: taptap.php:658
+msgid "Header"
+msgstr ""
+
+#: taptap.php:663
+msgid "Show header"
+msgstr ""
+
+#: taptap.php:663
+msgid "Display background behind menu/search buttons and logo"
+msgstr ""
+
+#: taptap.php:668
+msgid "Header height (in pixels)"
+msgstr ""
+
+#: taptap.php:673
+msgid "Header opacity"
+msgstr ""
+
+#: taptap.php:673
+msgid "From 0-1 (example: 0.5) If empty, defaults to 1"
+msgstr ""
+
+#: taptap.php:678
+msgid "Show header shadow"
+msgstr ""
+
+#: taptap.php:678
+msgid "Display shadow behind menu/search buttons and logo"
+msgstr ""
+
+#: taptap.php:683
+msgid "Header shadow opacity"
+msgstr ""
+
+#: taptap.php:683
+msgid "From 0-1 (example: 0.75) If empty, defaults to 0.4"
+msgstr ""
+
+#: taptap.php:688
+msgid "Header Background"
+msgstr ""
+
+#: taptap.php:695
+msgid "Header background image"
+msgstr ""
+
+#: taptap.php:704 taptap.php:865
+msgid "Show background image as pattern"
+msgstr ""
+
+#: taptap.php:709
+msgid "Header background image opacity"
+msgstr ""
+
+#: taptap.php:709
+msgid "From 0-1 (example: 0.75) If empty, defaults to 1"
+msgstr ""
+
+#: taptap.php:715
+msgid "Menu Container & Overlay"
+msgstr ""
+
+#: taptap.php:723
+msgid "Menu appearance"
+msgstr ""
+
+#: taptap.php:737
+msgid "Appearance speed (in seconds)"
+msgstr ""
+
+#: taptap.php:737
+msgid ""
+"If empty, defaults to 0.5 (also applies to customizations in \"Content "
+"Animation\" section.)"
+msgstr ""
+
+#: taptap.php:742
+msgid "Appearance scaling (0-1)"
+msgstr ""
+
+#: taptap.php:742
+msgid "If empty, defaults to 0.75. To disable scaling, enter value as 1"
+msgstr ""
+
+#: taptap.php:747
+msgid "Extend scaling to background"
+msgstr ""
+
+#: taptap.php:747
+msgid "If unchecked, scaling is applied to menu contents only"
+msgstr ""
+
+#: taptap.php:752
+msgid "Width (in pixels)"
+msgstr ""
+
+#: taptap.php:752
+msgid ""
+"Applied when Slide Left or Slide Right appearance selected. If empty, "
+"defaults to full width"
+msgstr ""
+
+#: taptap.php:757
+msgid "Height (in pixels)"
+msgstr ""
+
+#: taptap.php:757
+msgid ""
+"Applied when Slide Top or Slide Bottom appearance selected. If empty, "
+"defaults to full height"
+msgstr ""
+
+#: taptap.php:762
+msgid "Background corner roundness (in pixels)"
+msgstr ""
+
+#: taptap.php:762 taptap.php:767
+msgid "Example: 10 or 50"
+msgstr ""
+
+#: taptap.php:767
+msgid "Distance from edges (in pixels)"
+msgstr ""
+
+#: taptap.php:775
+msgid "Content horizontal alignment"
+msgstr ""
+
+#: taptap.php:790
+msgid "Content vertical alignment"
+msgstr ""
+
+#: taptap.php:802
+msgid "Max content width (in pixels)"
+msgstr ""
+
+#: taptap.php:802
+msgid "If empty, defaults to 800"
+msgstr ""
+
+#: taptap.php:807
+msgid "Left padding (in pixels)"
+msgstr ""
+
+#: taptap.php:807
+msgid ""
+"Left distance for contents inside menu container. If empty, defaults to 25"
+msgstr ""
+
+#: taptap.php:812
+msgid "Right padding (in pixels)"
+msgstr ""
+
+#: taptap.php:812
+msgid ""
+"Right distance for contents inside menu container. If empty, defaults to 25"
+msgstr ""
+
+#: taptap.php:817
+msgid "Top padding (in pixels)"
+msgstr ""
+
+#: taptap.php:817
+msgid ""
+"Top distance for contents inside menu container. If left empty, defaults to "
+"75"
+msgstr ""
+
+#: taptap.php:822
+msgid "Bottom padding (in pixels)"
+msgstr ""
+
+#: taptap.php:822
+msgid ""
+"Bottom distance for contents inside menu container. If left empty, defaults "
+"to 75"
+msgstr ""
+
+#: taptap.php:827
+msgid "Background color"
+msgstr ""
+
+#: taptap.php:833
+msgid "Background color #2"
+msgstr ""
+
+#: taptap.php:839
+msgid "Background color #3"
+msgstr ""
+
+#: taptap.php:845
+msgid "Show background colors as gradient animation"
+msgstr ""
+
+#: taptap.php:850
+msgid "Background color pulsating speed (in seconds)"
+msgstr ""
+
+#: taptap.php:850
+msgid ""
+"If you have entered all three background colors above, then you can use "
+"this setting to control the color pulsating speed. If empty, defaults to 10"
+msgstr ""
+
+#: taptap.php:856
+msgid "Background image"
+msgstr ""
+
+#: taptap.php:870
+msgid "Background image width"
+msgstr ""
+
+#: taptap.php:870
+msgid ""
+"Can be entered in pixels or percentages (example: 200px or 50%). Height "
+"displayed proportionally. If empty, defaults to full screen."
+msgstr ""
+
+#: taptap.php:875
+msgid "Background image opacity"
+msgstr ""
+
+#: taptap.php:875
+msgid "From 0-1 (example: 0.5) If empty, defaults to 0.1"
+msgstr ""
+
+#: taptap.php:880
+msgid "Background color opacity"
+msgstr ""
+
+#: taptap.php:880
+msgid "From 0-1 (example: 0.95) If empty, defaults to 1"
+msgstr ""
+
+#: taptap.php:888 taptap.php:900
+msgid "Background image horizontal alignment"
+msgstr ""
+
+#: taptap.php:900 taptap.php:921
+msgid ""
+"Can be entered in pixels or percentage (example: 200px or 25%). Overrides "
+"the option above."
+msgstr ""
+
+#: taptap.php:909 taptap.php:921
+msgid "Background image vertical alignment"
+msgstr ""
+
+#: taptap.php:938 taptap.php:948
+msgid "Heading Text"
+msgstr ""
+
+#: taptap.php:943 taptap.php:1015
+msgid "Text"
+msgstr ""
+
+#: taptap.php:954 taptap.php:1026 taptap.php:1098
+msgid "Link"
+msgstr ""
+
+#: taptap.php:969 taptap.php:1041 taptap.php:1469
+msgid "Line height (in pixels)"
+msgstr ""
+
+#: taptap.php:969 taptap.php:1041 taptap.php:1469
+msgid "If empty, defaults to 16"
+msgstr ""
+
+#: taptap.php:1005 taptap.php:1020
+msgid "Subheading Text"
+msgstr ""
+
+#: taptap.php:1010
+msgid "Spacing between heading/subheading (in pixels)"
+msgstr ""
+
+#: taptap.php:1010
+msgid "If empty, defaults to 5."
+msgstr ""
+
+#: taptap.php:1031
+msgid "If empty, defaults to 10"
+msgstr ""
+
+#: taptap.php:1077
+msgid "Heading Image"
+msgstr ""
+
+#: taptap.php:1083
+msgid "Image"
+msgstr ""
+
+#: taptap.php:1084
+msgid ""
+"<strong>How to add retina image:</strong> Enable retina script in Misc "
+"section, then upload both the regular and retina image files and make sure "
+"they are named correctly. If retina image is uploaded, it will be shown on "
+"retina screens with no further setup necessary. <br><br> Example:<br> my-"
+"image.png and my-image@2x.png (note that the retina image must have \"@2x\" "
+"at the end. @3x images work as well.).<br><br>"
+msgstr ""
+
+#: taptap.php:1093
+msgid "Maximum width"
+msgstr ""
+
+#: taptap.php:1103
+msgid "Open in new window/tab"
+msgstr ""
+
+#: taptap.php:1108
+msgid "Top margin (in pixels)"
+msgstr ""
+
+#: taptap.php:1113
+msgid "Bottom margin (in pixels)"
+msgstr ""
+
+#: taptap.php:1119
+msgid "Menu & Submenu Items"
+msgstr ""
+
+#: taptap.php:1124
+msgid "Alternate submenu activation"
+msgstr ""
+
+#: taptap.php:1124
+msgid ""
+"Make entire top-level menu item open the submenu. If unchecked, only the "
+"arrow icon opens submenu"
+msgstr ""
+
+#: taptap.php:1129
+msgid "Close menu after click"
+msgstr ""
+
+#: taptap.php:1129
+msgid ""
+"Close menu when menu item is clicked/tapped (useful on one-page websites "
+"where menu links lead to anchors, not new pages)."
+msgstr ""
+
+#: taptap.php:1134
+msgid "Menu item font size (in pixels)"
+msgstr ""
+
+#: taptap.php:1139
+msgid "Submenu item font size (in pixels)"
+msgstr ""
+
+#: taptap.php:1139
+msgid "If empty, defaults to 13"
+msgstr ""
+
+#: taptap.php:1144
+msgid "Menu items vertical spacing (in pixels)"
+msgstr ""
+
+#: taptap.php:1144
+msgid "Enter custom value to increase spacing between between menu items."
+msgstr ""
+
+#: taptap.php:1149
+msgid "Submenu items vertical spacing (in pixels)"
+msgstr ""
+
+#: taptap.php:1149
+msgid "Enter custom value to increase spacing between between submenu items."
+msgstr ""
+
+#: taptap.php:1154
+msgid "Menu items letter spacing (in pixels)"
+msgstr ""
+
+#: taptap.php:1159
+msgid "Submenu items letter spacing (in pixels)"
+msgstr ""
+
+#: taptap.php:1164
+msgid "Menu item"
+msgstr ""
+
+#: taptap.php:1170
+msgid "Menu item (current)"
+msgstr ""
+
+#: taptap.php:1176
+msgid "Menu item hover"
+msgstr ""
+
+#: taptap.php:1182
+msgid "Menu item hover (current)"
+msgstr ""
+
+#: taptap.php:1188
+msgid "Submenu item"
+msgstr ""
+
+#: taptap.php:1194
+msgid "Submenu item (current)"
+msgstr ""
+
+#: taptap.php:1200
+msgid "Submenu item hover"
+msgstr ""
+
+#: taptap.php:1206
+msgid "Submenu item hover (current)"
+msgstr ""
+
+#: taptap.php:1212
+msgid "Submenu arrow"
+msgstr ""
+
+#: taptap.php:1218
+msgid "Submenu arrow (hover)"
+msgstr ""
+
+#: taptap.php:1224
+msgid "Submenu arrow divider"
+msgstr ""
+
+#: taptap.php:1260
+msgid "Submenu arrow position (top-level items, in pixels)"
+msgstr ""
+
+#: taptap.php:1260
+msgid ""
+"At certain settings, the arrow next to a top-level menu item may need to be "
+"vertically re-aligned. If you find the it to be misaligned, enter a number "
+"here to nudge it into position. Example: 5"
+msgstr ""
+
+#: taptap.php:1265
+msgid "Submenu arrow position (submenu items, in pixels)"
+msgstr ""
+
+#: taptap.php:1265
+msgid ""
+"At certain settings, the arrow next to a sublevel menu item may need to be "
+"vertically re-aligned. If you find the it to be misaligned, enter a number "
+"here to nudge it into position. Example: 5"
+msgstr ""
+
+#: taptap.php:1270
+msgid "Menu item appearance animation"
+msgstr ""
+
+#: taptap.php:1270
+msgid ""
+"When selected, menu items will animate individually upon menu activation "
+"(additional settings found below)."
+msgstr ""
+
+#: taptap.php:1275
+msgid "Menu item appearance origin (in pixels)"
+msgstr ""
+
+#: taptap.php:1275
+msgid ""
+"Distance from which the menu item appearance animation originates (negative "
+"values accepted). If empty, defaults to 50"
+msgstr ""
+
+#: taptap.php:1281
+msgid "Menu Item Descriptions"
+msgstr ""
+
+#: taptap.php:1286
+msgid "Display menu item descriptions above menu items"
+msgstr ""
+
+#: taptap.php:1286
+msgid "If unchecked, descriptions will be displayed below menu items"
+msgstr ""
+
+#: taptap.php:1292
+msgid "Menu description font size (in pixels)"
+msgstr ""
+
+#: taptap.php:1297
+msgid "Menu item description"
+msgstr ""
+
+#: taptap.php:1303
+msgid "Menu description top padding (in pixels)"
+msgstr ""
+
+#: taptap.php:1303
+msgid ""
+"Enter custom value to increase top spacing around menu item description."
+msgstr ""
+
+#: taptap.php:1308
+msgid "Menu description bottom padding (in pixels)"
+msgstr ""
+
+#: taptap.php:1308
+msgid ""
+"Enter custom value to increase bottom spacing around menu item description."
+msgstr ""
+
+#: taptap.php:1313
+msgid "Menu description line height (in pixels)"
+msgstr ""
+
+#: taptap.php:1318
+msgid "Menu description letter spacing (in pixels)"
+msgstr ""
+
+#: taptap.php:1354
+msgid "Menu Icons"
+msgstr ""
+
+#: taptap.php:1359
+msgid "Icon size (top-level items, in pixels)"
+msgstr ""
+
+#: taptap.php:1364
+msgid "Icon size (submenu items, in pixels)"
+msgstr ""
+
+#: taptap.php:1369
+msgid "Icon position (top-level items, in pixels)"
+msgstr ""
+
+#: taptap.php:1369
+msgid ""
+"If you have set custom icon and text sizes that are radically different "
+"from one another, the icon next to a top-level menu item may need to be "
+"vertically re-positioned. If you find the icon to be misaligned, enter a "
+"number here to nudge it into position."
+msgstr ""
+
+#: taptap.php:1374
+msgid "Icon position (submenu items, in pixels)"
+msgstr ""
+
+#: taptap.php:1374
+msgid ""
+"If you have set custom icon and text sizes that are radically different "
+"from one another, the icon next to a sub-level menu item may need to be "
+"vertically re-positioned. If you find the icon to be misaligned, enter a "
+"number here to nudge it into position."
+msgstr ""
+
+#: taptap.php:1385
+msgid "Icon hover"
+msgstr ""
+
+#: taptap.php:1391
+msgid "Submenu icon"
+msgstr ""
+
+#: taptap.php:1397
+msgid "Submenu icon hover"
+msgstr ""
+
+#: taptap.php:1404
+msgid "Widgets"
+msgstr ""
+
+#: taptap.php:1409
+msgid ""
+"Useful if you would like to have more space between the menu and widget "
+"area. If empty, defaults to 30"
+msgstr ""
+
+#: taptap.php:1414
+msgid "Title font size (in pixels)"
+msgstr ""
+
+#: taptap.php:1414 taptap.php:1424 taptap.php:1459
+msgid "If empty, defaults to 12"
+msgstr ""
+
+#: taptap.php:1419
+msgid "Title letter spacing (in pixels)"
+msgstr ""
+
+#: taptap.php:1424
+msgid "Title line height (in pixels)"
+msgstr ""
+
+#: taptap.php:1454
+msgid "Title advanced feature: Use theme fonts"
+msgstr ""
+
+#: taptap.php:1504
+msgid "Widget title"
+msgstr ""
+
+#: taptap.php:1510
+msgid "Widget text"
+msgstr ""
+
+#: taptap.php:1516
+msgid "Widget link"
+msgstr ""
+
+#: taptap.php:1522
+msgid "Widget link (hover)"
+msgstr ""
+
+#: taptap.php:1529
+msgid "Styled Scrollbar"
+msgstr ""
+
+#: taptap.php:1534
+msgid "Enable styled scrollbar"
+msgstr ""
+
+#: taptap.php:1534
+msgid ""
+"If ticked, the menu will have a styled scrollbar. Applied on desktop only. "
+"On mobile, native scroll of a device is used."
+msgstr ""
+
+#: taptap.php:1539
+msgid "Show on mouseover only"
+msgstr ""
+
+#: taptap.php:1539
+msgid ""
+"If ticked, the scrollbar will be shown only when mouse is over the menu "
+"area."
+msgstr ""
+
+#: taptap.php:1544
+msgid "Distance from sides (in pixels)"
+msgstr ""
+
+#: taptap.php:1544
+msgid "If empty, defaults to 3"
+msgstr ""
+
+#: taptap.php:1549
+msgid "Thickness (in pixels)"
+msgstr ""
+
+#: taptap.php:1549
+msgid "If empty, defaults to 5"
+msgstr ""
+
+#: taptap.php:1554 taptap.php:1678
+msgid "Corner roundness (in pixels)"
+msgstr ""
+
+#: taptap.php:1559 taptap.php:1662
+msgid "Scrollbar"
+msgstr ""
+
+#: taptap.php:1565
+msgid "Scrollbar (when dragged)"
+msgstr ""
+
+#: taptap.php:1571
+msgid "Scrollbar background"
+msgstr ""
+
+#: taptap.php:1578
+msgid "Content Animation"
+msgstr ""
+
+#: taptap.php:1583
+msgid "Enter elements to animate (*required for animation to kick in)"
+msgstr ""
+
+#: taptap.php:1583
+msgid ""
+"Enter the classes/IDs of the elements you wish to animate, separate with "
+"comma like you would in a stylesheet. Example: \"#my-content, .content-"
+"wrapper\""
+msgstr ""
+
+#: taptap.php:1588
+msgid "Scaling"
+msgstr ""
+
+#: taptap.php:1588
+msgid ""
+"To scale down, enter number smaller than 1. To scale up, enter number "
+"higher than 1. Example: 0.8 or 1.25. If empty, defaults to 0.95"
+msgstr ""
+
+#: taptap.php:1593
+msgid "Example: 0.6 or 0.75. If empty, defaults to 1"
+msgstr ""
+
+#: taptap.php:1598
+msgid "Blur"
+msgstr ""
+
+#: taptap.php:1598
+msgid "Example: 5 or 10. If empty, blur effect disabled"
+msgstr ""
+
+#: taptap.php:1603
+msgid "Show blur effect on touch devices only"
+msgstr ""
+
+#: taptap.php:1603
+msgid ""
+"Due to possible rendering issues in current versions of Chrome (the effect "
+"may cause a noticeable flicker when applied), you may want to show the blur "
+"effect on touch devices only, where it is much more reliable."
+msgstr ""
+
+#: taptap.php:1609
+msgid "Image-based Menu"
+msgstr ""
+
+#: taptap.php:1614
+msgid "First menu item"
+msgstr ""
+
+#: taptap.php:1620
+msgid "Sub-menu items"
+msgstr ""
+
+#: taptap.php:1626
+msgid "Sub-menu items (hover)"
+msgstr ""
+
+#: taptap.php:1632
+msgid "Dropdown indicator"
+msgstr ""
+
+#: taptap.php:1638
+msgid "Dropdown indicator background"
+msgstr ""
+
+#: taptap.php:1644
+msgid "Submenu dropdown indicator"
+msgstr ""
+
+#: taptap.php:1650
+msgid "Submenu dropdown indicator background"
+msgstr ""
+
+#: taptap.php:1656
+msgid "Background"
+msgstr ""
+
+#: taptap.php:1668
+msgid "Appearance animation origin (in pixels)"
+msgstr ""
+
+#: taptap.php:1668
+msgid "Negative values accepted. If empty, defaults to 125"
+msgstr ""
+
+#: taptap.php:1673
+msgid "Appearance animation opacity"
+msgstr ""
+
+#: taptap.php:1673
+msgid "From 0-1. To disable fade-in of menu items, enter value as 1"
+msgstr ""
+
+#: taptap.php:1678
+msgid "If empty, defaults to 7"
+msgstr ""
+
+#: taptap.php:1683
+msgid "Gap between top-level menu items (in pixels)"
+msgstr ""
+
+#: taptap.php:1683
+msgid "If empty, defaults to 20"
+msgstr ""
+
+#: taptap.php:1689
+msgid "1st menu item image"
+msgstr ""
+
+#: taptap.php:1699
+msgid "2nd menu item image"
+msgstr ""
+
+#: taptap.php:1709
+msgid "3rd menu item image"
+msgstr ""
+
+#: taptap.php:1719
+msgid "4th menu item image"
+msgstr ""
+
+#: taptap.php:1729
+msgid "5th menu item image"
+msgstr ""
+
+#: taptap.php:1739
+msgid "6th menu item image"
+msgstr ""
+
+#: taptap.php:1749
+msgid "7th menu item image"
+msgstr ""
+
+#: taptap.php:1759
+msgid "8th menu item image"
+msgstr ""
+
+#: taptap.php:1769
+msgid "9th menu item image"
+msgstr ""
+
+#: taptap.php:1778
+msgid "Alternate Close Button"
+msgstr ""
+
+#: taptap.php:1783
+msgid "Show alternate close button"
+msgstr ""
+
+#: taptap.php:1783
+msgid ""
+"Useful for cases where the default menu button (which transforms and also "
+"behaves as the close button) is hidden and a custom element is used to "
+"activate the menu."
+msgstr ""
+
+#: taptap.php:1788
+msgid "Absolute position"
+msgstr ""
+
+#: taptap.php:1788
+msgid ""
+"If unchecked, the close button will stick to the top when the menu is "
+"scrolled."
+msgstr ""
+
+#: taptap.php:1793
+msgid "Align left"
+msgstr ""
+
+#: taptap.php:1793
+msgid ""
+"Position left. If unchecked, the close button will be positioned on right "
+"side of screen."
+msgstr ""
+
+#: taptap.php:1798
+msgid "Hover animation"
+msgstr ""
+
+#: taptap.php:1798
+msgid ""
+"When enabled, the close button will animate into a minus sign on hover."
+msgstr ""
+
+#: taptap.php:1803
+msgid "Alternate close button"
+msgstr ""
+
+#: taptap.php:1809
+msgid "Alternate close button (hover)"
+msgstr ""
+
+#: taptap.php:1817
+msgid "Top distance"
+msgstr ""
+
+#: taptap.php:1818 taptap.php:1828
+msgid "Example: 45. If empty, defaults to 20."
+msgstr ""
+
+#: taptap.php:1827
+msgid "Side distance"
+msgstr ""
+
+#: taptap.php:1837
+msgid "Thickness"
+msgstr ""
+
+#: taptap.php:1838
+msgid "Example: 5. If empty, defaults to 2."
+msgstr ""
+
+#: taptap.php:1846
+msgid "Misc"
+msgstr ""
+
+#: taptap.php:1851
+msgid "Enable smart scroll"
+msgstr ""
+
+#: taptap.php:1851
+msgid ""
+"If ticked, header elements will hide when scrolled downwards and become "
+"visible again when scrolled upwards."
+msgstr ""
+
+#: taptap.php:1856
+msgid "Open on front page?"
+msgstr ""
+
+#: taptap.php:1856
+msgid "If ticked, menu is open by default on the front page."
+msgstr ""
+
+#: taptap.php:1861
+msgid "Lock body scroll"
+msgstr ""
+
+#: taptap.php:1861
+msgid ""
+"If ticked, the body scroll will be disabled when menu is opened (unless "
+"scrolling is handled in an unusual way by the theme)."
+msgstr ""
+
+#: taptap.php:1866
+msgid "Show submenu when current"
+msgstr ""
+
+#: taptap.php:1866
+msgid ""
+"Open submenu by default when the menu item linking to current page resides "
+"inside."
+msgstr ""
+
+#: taptap.php:1871
+msgid "Absolute positioning"
+msgstr ""
+
+#: taptap.php:1871
+msgid ""
+"If ticked, the menu/search buttons and logo leave the screen when scrolled."
+msgstr ""
+
+#: taptap.php:1876
+msgid "Show header elements above menu"
+msgstr ""
+
+#: taptap.php:1876
+msgid ""
+"If ticked, the logo and search button will be visible when menu is open. If "
+"left unchecked, they will appear behind the menu."
+msgstr ""
+
+#: taptap.php:1881
+msgid "Push down site"
+msgstr ""
+
+#: taptap.php:1881
+msgid ""
+"If ticked, your site will be pushed down by the height of the TapTap menu."
+msgstr ""
+
+#: taptap.php:1886
+msgid "Do not load FontAwesome icon set"
+msgstr ""
+
+#: taptap.php:1886
+msgid ""
+"Useful if you do not use any icons or if your theme or another plugin "
+"already loads it, to prevent it from being loaded twice unnecessarily."
+msgstr ""
+
+#: taptap.php:1891
+msgid "Enable retina script support for logo/heading image"
+msgstr ""
+
+#: taptap.php:1891
+msgid ""
+"Please note: can potentially cause a conflict with some elements in some "
+"themes. To display image as retina when this script is disabled, simply "
+"upload the image twice as large (example: if image file height is 150, set "
+"the height value as 75)."
+msgstr ""
+
+#: taptap.php:1898
+msgid "Hide at certain width/resolution"
+msgstr ""
+
+#: taptap.php:1899
+msgid ""
+"<strong>Example #1:</strong> If you want to show TapTap on desktop only, "
+"enter the values as 0 and 500. <br><br> <strong>Example #2:</strong> If you "
+"want to show TapTap on mobile only, enter the values as 500 and 5000. "
+"<br><br> Feel free to experiment with your own values to get the result "
+"that is right for you. If fields are empty, TapTap will be visible at all "
+"browser widths and resolutions. <br><br> Hide TapTap menu if browser width "
+"or screen resolution (in pixels) is between..."
+msgstr ""
+
+#: taptap.php:1908
+msgid "..and:"
+msgstr ""
+
+#: taptap.php:1917
+msgid "Advanced: Hide theme menu"
+msgstr ""
+
+#: taptap.php:1918
+msgid ""
+"If you have set TapTap to show only at a certain resolution, know the class/"
+"ID of your theme menu and would like to hide it when TapTap is visible, "
+"enter the class/ID into this field (example: \"#my-theme-menu\"). Multiple "
+"classes/IDs can be entered (separate with comma as you would in a "
+"stylesheet)."
+msgstr ""
+
+#: taptap.php:2197
+msgid "TapTap Widgets (above menu)"
+msgstr ""
+
+#: taptap.php:2199 taptap.php:2209
+msgid "Drag widgets here"
+msgstr ""
+
+#: taptap.php:2207
+msgid "TapTap Widgets (below menu)"
+msgstr ""
+
+#: taptap.php:2240 taptap.php:2241
+msgid "TapTap plugin"
+msgstr ""

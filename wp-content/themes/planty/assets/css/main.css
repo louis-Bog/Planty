@@ -34,20 +34,26 @@ p {
 body {
   font-family: "Syne", sans-serif;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
+  border: 2px solid red;
 }
+
+/* Menu HEADER*/
+
 .header {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  padding: 0 1vw;
 }
 .header img {
-  width: 150px;
+  width: 13vw;
   margin: 0 auto;
 }
+
 .site__header__menu {
   display: flex;
   justify-content: space-between;
@@ -55,10 +61,16 @@ body {
 }
 .site__header__menu li {
   font-weight: 400;
-  font-size: 16px;
   cursor: pointer;
   padding: 25px 0;
-  width: 160px;
+  width: 10vw;
+  color: white;
+}
+.site__header__menu li a {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 25px 0;
 }
 .site__header__menu li:hover,
 li a:hover {
@@ -75,7 +87,29 @@ li a:hover {
   color: white;
 }
 
-/* Menu Admin */
+@media screen and (max-width: 1280px) {
+  site__header__menu li a {
+    padding: 25px 0;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .site__header__menu li {
+    width: 11vw;
+  }
+}
+@media screen and (max-width: 1235px) {
+  .site__header__menu li {
+    width: 12vw;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .site__header__menu {
+    display: none;
+  }
+}
+
+/* Menu HEADER Admin */
 
 .site__header__menu #menu-item-154:nth-child(3) {
   order: 1;
@@ -86,6 +120,62 @@ li a:hover {
 .site__header__menu #LienAdmin:nth-child(2) {
   order: 2;
 }
+
+/* Section energy drink page d'accueil */
+
+.Section-energy-drink {
+  width: 100vw;
+  background-color: var(--color4);
+  margin: 0 auto;
+}
+.Section-energy-drink h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color1);
+  padding: 50px 0;
+}
+.section-bas-drink {
+  width: 100vw;
+  height: 60px;
+  width: 100%;
+  background-color: var(--color4);
+  border-radius: 0 0 80% 80%;
+  box-shadow: 0 10px 0 #dcd5cf;
+}
+
+@media screen and (max-width: 1280px) {
+  .Section-energy-drink h1 {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .Section-energy-drink img {
+    width: 349px;
+    height: 249px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .Section-energy-drink h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Section-energy-drink h1 {
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Section-energy-drink h1 {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+}
+
+/* Section info page d'accueil */
+
 .infos {
   padding: 10vh;
 }
@@ -96,24 +186,35 @@ li a:hover {
   margin: 0 0 50px 0;
 }
 
-.Section-energy-drink {
-  width: 100%;
-  background-color: var(--color4);
+@media screen and (max-width: 1025px) {
+  .infos {
+    padding: 5vh;
+  }
 }
-.Section-energy-drink h1 {
-  font-size: 38px;
-  font-weight: 800;
-  text-transform: uppercase;
-  color: var(--color1);
-  padding: 50px 0;
+@media screen and (max-width: 960px) {
+  .infos h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color1);
+    margin: 0 0 50px 0;
+  }
+  .infos p {
+    font-size: 16px;
+  }
 }
-.section-bas-drink {
-  height: 60px;
-  width: 100%;
-  background-color: var(--color4);
-  border-radius: 0 0 80% 80%;
-  box-shadow: 0 10px 0 #dcd5cf;
+@media screen and (max-width: 480px) {
+  .infos h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color1);
+    margin: 0 0 50px 0;
+  }
+  .infos p {
+    font-size: 14px;
+  }
 }
+/* Section goût page d'accueil */
+
 .section-gouts {
   padding: 50px 0;
   border-radius: 0 0 2% 2%;
@@ -121,19 +222,31 @@ li a:hover {
   background-color: var(--color4);
 }
 .section-gouts h3 {
-  font-size: 30px;
+  font-size: 2.4rem;
   font-weight: 800;
   text-transform: uppercase;
   color: var(--color6);
 }
 .section-gouts p {
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 400;
   color: black;
   font-family: "Syne", sans-serif;
   margin-bottom: 70px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .section-gouts h3 {
+    font-size: 2.2rem;
+  }
+  .section-gouts p {
+    font-size: 1.2rem;
+  }
+  .article-fruits img {
+    width: 295px;
+    height: 196px;
+  }
 }
 .article-fruits {
   display: flex;
@@ -150,8 +263,16 @@ li a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  font-size: 45px;
+  font-size: 2.8rem;
   color: white;
+}
+@media screen and (max-width: 1024px) {
+  .titre-fruit h3 {
+    font-size: 2.2rem;
+    top: 7vh;
+    left: 0;
+    right: 0;
+  }
 }
 .fraise {
   position: relative;
@@ -159,8 +280,14 @@ li a:hover {
 .pamplemousse {
   position: relative;
 }
+.pamplemousse h3 {
+  top: 5vh;
+}
 .framboise {
   position: relative;
+}
+.framboise h3 {
+  top: 5vh;
 }
 .citron {
   position: relative;
@@ -180,11 +307,12 @@ li a:hover {
   letter-spacing: 2px;
   color: white;
 }
+
 .content-avis {
   background: white;
 }
 .content-avis h3 {
-  font-size: 30px;
+  font-size: 1.9rem;
   color: var(--color1);
   margin: 80px 0;
   font-weight: 800;
@@ -195,6 +323,20 @@ li a:hover {
   align-items: center;
   width: 70%;
   margin: 0 auto;
+  padding: 0 2vw;
+}
+@media screen and (max-width: 1180px) {
+  .content-users-avis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 2vw;
+  }
+  .content-avis h3 {
+    font-size: 1.6rem;
+  }
 }
 .user-avis {
   display: flex;
@@ -206,22 +348,75 @@ li a:hover {
   height: 170px;
 }
 .user-pseudo-texte {
-  width: 300px;
+  width: 250px;
 }
 .user-pseudo-texte h4 {
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: 700;
   text-align: left;
   margin-top: 20px;
   color: var(--color1);
 }
 .user-pseudo-texte p {
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 400;
   text-align: left;
   margin: 10px 0;
   color: black;
 }
+@media screen and (max-width: 1180px) {
+  .user-pseudo-texte {
+    width: 200px;
+  }
+  .user-pseudo-texte h4 {
+    font-size: 1.6rem;
+  }
+  .user-pseudo-texte p {
+    font-size: 1rem;
+  }
+  .user-avis img {
+    width: 105px;
+    height: 127px;
+  }
+}
+@media screen and (max-width: 1055px) {
+  .user-pseudo-texte {
+    width: 180px;
+  }
+  .user-pseudo-texte h4 {
+    font-size: 1.4rem;
+  }
+  .user-pseudo-texte p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 942px) {
+  .content-users-avis {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .user-avis {
+    margin-bottom: 50px;
+  }
+  .user-pseudo-texte h4 {
+    margin-top: 5px;
+  }
+  .user-pseudo-texte {
+    width: 150px;
+  }
+  .content-avis h3 {
+    font-size: 1.4rem;
+  }
+  .user-pseudo-texte h4 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .user-pseudo-texte p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
 .img-canettes img {
   width: 100%;
   height: 200px;
@@ -233,6 +428,16 @@ li a:hover {
   font-size: 18px;
   font-weight: 400;
   margin: 15px 0;
+}
+@media screen and (max-width: 980px) {
+  .img-canettes img {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .img-canettes img {
+    height: 120px;
+  }
 }
 
 /* Page nous rencontrer */

@@ -1,0 +1,535 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-01-13 09:58+0200\n"
+"PO-Revision-Date: 2021-01-08 12:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: morph.php:24
+msgid "Morph Plugin"
+msgstr ""
+
+#: morph.php:29
+msgid "Header Bar & Logo"
+msgstr ""
+
+#: morph.php:34
+msgid "Hide header bar & logo"
+msgstr ""
+
+#: morph.php:39
+msgid "Header background"
+msgstr ""
+
+#: morph.php:47
+msgid "Header opacity"
+msgstr ""
+
+#: morph.php:48
+msgid "From 0-1 (example: 0.9) If empty, defaults to 1"
+msgstr ""
+
+#: morph.php:55
+msgid "Show shadow"
+msgstr ""
+
+#: morph.php:55
+msgid "If ticked, header has a subtle shadow behind it."
+msgstr ""
+
+#: morph.php:61
+msgid "Upload logo image"
+msgstr ""
+
+#: morph.php:62
+msgid ""
+"<strong>How-to add retina logo:</strong> If you would like to add a retina "
+"logo, upload both the regular and retina logo files and make sure they are "
+"named correctly. If retina logo is uploaded, it will be shown on retina "
+"screens with no further setup necessary. <br><br> Example:<br> my-logo.png "
+"and my-logo@2x.png (note that the retina logo must have \"@2x\" at the end)."
+"<br><br>"
+msgstr ""
+
+#: morph.php:71
+msgid "Logo"
+msgstr ""
+
+#: morph.php:77
+msgid "Logo hover"
+msgstr ""
+
+#: morph.php:83
+msgid "Menu Button"
+msgstr ""
+
+#: morph.php:88
+msgid "Hide menu button"
+msgstr ""
+
+#: morph.php:88
+msgid ""
+"Useful if you would like to use a custom element as the menu activator (in "
+"this case give it the \"morph-main-menu-activator\" class)."
+msgstr ""
+
+#: morph.php:96
+msgid "Button style"
+msgstr ""
+
+#: morph.php:111
+msgid "Button animation"
+msgstr ""
+
+#: morph.php:123
+msgid "Button"
+msgstr ""
+
+#: morph.php:129
+msgid "Button hover"
+msgstr ""
+
+#: morph.php:135
+msgid "Button active"
+msgstr ""
+
+#: morph.php:141
+msgid "Button active hover"
+msgstr ""
+
+#: morph.php:149
+msgid "Animation speed (in seconds)"
+msgstr ""
+
+#: morph.php:150
+msgid "Example: 0.5. If empty, defaults to 0.25"
+msgstr ""
+
+#: morph.php:157 morph.php:162
+msgid "Label"
+msgstr ""
+
+#: morph.php:157
+msgid "If empty, no label will be shown"
+msgstr ""
+
+#: morph.php:168
+msgid "Label hover"
+msgstr ""
+
+#: morph.php:174
+msgid "Heading"
+msgstr ""
+
+#: morph.php:181 morph.php:188
+msgid "Heading text"
+msgstr ""
+
+#: morph.php:196 morph.php:203
+msgid "Sub-heading text"
+msgstr ""
+
+#: morph.php:210
+msgid "Heading image"
+msgstr ""
+
+#: morph.php:219
+msgid "Show heading image as pattern"
+msgstr ""
+
+#: morph.php:226
+msgid "Custom heading height (in pixels)"
+msgstr ""
+
+#: morph.php:227
+msgid "If empty, defaults to 200px"
+msgstr ""
+
+#: morph.php:234
+msgid "Heading overlay"
+msgstr ""
+
+#: morph.php:242
+msgid "Heading overlay opacity"
+msgstr ""
+
+#: morph.php:243
+msgid "From 0-1 (example: 0.5) If empty, defaults to 0.2"
+msgstr ""
+
+#: morph.php:250
+msgid "Bottom border"
+msgstr ""
+
+#: morph.php:258
+msgid "Bottom border thickness (in pixels)"
+msgstr ""
+
+#: morph.php:259
+msgid "If empty, defaults to 3. To hide border, enter value as 0"
+msgstr ""
+
+#: morph.php:266
+msgid "Main Menu"
+msgstr ""
+
+#: morph.php:271
+msgid "Alternate sub-menu activation"
+msgstr ""
+
+#: morph.php:271
+msgid ""
+"Makes entire top-level menu item open the sub-menu. If unchecked, only the "
+"arrow icon opens sub-menu."
+msgstr ""
+
+#: morph.php:276
+msgid "Background"
+msgstr ""
+
+#: morph.php:282 morph.php:409
+msgid "Menu item font size (in pixels)"
+msgstr ""
+
+#: morph.php:282 morph.php:310
+msgid "If empty, defaults to 14"
+msgstr ""
+
+#: morph.php:287
+msgid "Menu item"
+msgstr ""
+
+#: morph.php:293
+msgid "Menu item hover"
+msgstr ""
+
+#: morph.php:299
+msgid "Menu item description font size (in pixels)"
+msgstr ""
+
+#: morph.php:299 morph.php:409
+msgid "If empty, defaults to 13"
+msgstr ""
+
+#: morph.php:304
+msgid "Menu item description"
+msgstr ""
+
+#: morph.php:310
+msgid "Sub-menu item font size (in pixels)"
+msgstr ""
+
+#: morph.php:315
+msgid "Sub-menu item"
+msgstr ""
+
+#: morph.php:321
+msgid "Sub-menu item hover"
+msgstr ""
+
+#: morph.php:327
+msgid "Sub-menu arrow"
+msgstr ""
+
+#: morph.php:333
+msgid "Sub-menu arrow hover"
+msgstr ""
+
+#: morph.php:339
+msgid "Icon"
+msgstr ""
+
+#: morph.php:345
+msgid "Icon hover"
+msgstr ""
+
+#: morph.php:351
+msgid "Border"
+msgstr ""
+
+#: morph.php:357
+msgid "Secondary Menu"
+msgstr ""
+
+#: morph.php:362
+msgid "Hide secondary menu"
+msgstr ""
+
+#: morph.php:367
+msgid "Secondary menu button"
+msgstr ""
+
+#: morph.php:373
+msgid "Secondary menu button hover"
+msgstr ""
+
+#: morph.php:379
+msgid "Secondary menu button active"
+msgstr ""
+
+#: morph.php:385
+msgid "Secondary menu button active hover"
+msgstr ""
+
+#: morph.php:391
+msgid "Secondary menu background"
+msgstr ""
+
+#: morph.php:397
+msgid "Secondary menu border (top, left, right)"
+msgstr ""
+
+#: morph.php:403
+msgid "Secondary menu border (bottom)"
+msgstr ""
+
+#: morph.php:414
+msgid "Secondary menu item"
+msgstr ""
+
+#: morph.php:420
+msgid "Secondary menu item hover"
+msgstr ""
+
+#: morph.php:426
+msgid "Search"
+msgstr ""
+
+#: morph.php:431
+msgid "Hide search"
+msgstr ""
+
+#: morph.php:436
+msgid "Search button"
+msgstr ""
+
+#: morph.php:442
+msgid "Search button hover"
+msgstr ""
+
+#: morph.php:448
+msgid "Close search button"
+msgstr ""
+
+#: morph.php:454
+msgid "Close search hover"
+msgstr ""
+
+#: morph.php:460
+msgid "Search field border"
+msgstr ""
+
+#: morph.php:466
+msgid "Search field text"
+msgstr ""
+
+#: morph.php:472
+msgid "Fancy Scrollbar"
+msgstr ""
+
+#: morph.php:477
+msgid "Disable fancy scrollbar on desktop"
+msgstr ""
+
+#: morph.php:477
+msgid ""
+"Whether this option is enabled or not, touch devices use their native scroll "
+"behavior regardless."
+msgstr ""
+
+#: morph.php:482
+msgid "Scrollbar"
+msgstr ""
+
+#: morph.php:488
+msgid "Scrollbar background"
+msgstr ""
+
+#: morph.php:494
+msgid "Scrollbar thickness (in pixels)"
+msgstr ""
+
+#: morph.php:494
+msgid "If empty, defaults to 5"
+msgstr ""
+
+#: morph.php:499
+msgid "Scrollbar roundness (in pixels)"
+msgstr ""
+
+#: morph.php:499
+msgid "If empty, defaults to 8"
+msgstr ""
+
+#: morph.php:504
+msgid "Widgets"
+msgstr ""
+
+#: morph.php:509
+msgid "Widget title"
+msgstr ""
+
+#: morph.php:515
+msgid "Widget text"
+msgstr ""
+
+#: morph.php:521
+msgid "Widget text secondary (dates, captions)"
+msgstr ""
+
+#: morph.php:527
+msgid "Widget links"
+msgstr ""
+
+#: morph.php:533
+msgid "Widget search border"
+msgstr ""
+
+#: morph.php:539
+msgid "Widget search field"
+msgstr ""
+
+#: morph.php:545
+msgid "Widget search field placeholder"
+msgstr ""
+
+#: morph.php:551
+msgid "Misc"
+msgstr ""
+
+#: morph.php:556
+msgid "Show thin button variations"
+msgstr ""
+
+#: morph.php:556
+msgid ""
+"Applies to menu and secondary menu buttons, search and search close buttons, "
+"submenu arrows."
+msgstr ""
+
+#: morph.php:561
+msgid "Right side position"
+msgstr ""
+
+#: morph.php:561
+msgid ""
+"Places menu on right side of screen. If unticked, menu will be placed on "
+"left side of screen."
+msgstr ""
+
+#: morph.php:566
+msgid "Absolute positioning"
+msgstr ""
+
+#: morph.php:566
+msgid ""
+"Main menu button, header bar and logo will leave the screen when scrolled."
+msgstr ""
+
+#: morph.php:573
+msgid "Custom fly-out speed (in seconds)"
+msgstr ""
+
+#: morph.php:574
+msgid "Example: 0.75. If empty, defaults to 0.5"
+msgstr ""
+
+#: morph.php:583
+msgid "Menu fly-out width (in pixels)"
+msgstr ""
+
+#: morph.php:584
+msgid "Set custom width for main menu flyout. If empty, defaults to 270."
+msgstr ""
+
+#: morph.php:593
+msgid "Background overlay opacity"
+msgstr ""
+
+#: morph.php:594
+msgid "From 0-1 (example: 0.5) If empty, defaults to 0.3"
+msgstr ""
+
+#: morph.php:601
+msgid "Background overlay"
+msgstr ""
+
+#: morph.php:607
+msgid "Do not load FontAwesome icon set"
+msgstr ""
+
+#: morph.php:607
+msgid ""
+"Useful if you only use the default menubar icons or if your theme or another "
+"plugin already loads it, to prevent it from being loaded twice unnecessarily."
+msgstr ""
+
+#: morph.php:612
+msgid "Disable retina image support"
+msgstr ""
+
+#: morph.php:612
+msgid ""
+"If you are not using the logo image location or just do not want retina "
+"image support, enable this option to prevent the retina.js file from being "
+"loaded unnecessarily."
+msgstr ""
+
+#: morph.php:617
+msgid "Always visible"
+msgstr ""
+
+#: morph.php:617
+msgid "Does not affect the overlay."
+msgstr ""
+
+#: morph.php:624
+msgid "Hide at certain width/resolution"
+msgstr ""
+
+#: morph.php:625
+msgid ""
+"<strong>Example #1:</strong> If you want to show Morph on desktop only, "
+"enter the values as 0 and 500. <br><br> <strong>Example #2:</strong> If you "
+"want to show Morph on mobile only, enter the values as 500 and 5000. "
+"<br><br> Feel free to experiment with your own values to get the result that "
+"is right for you. If fields are empty, Morph will be visible at all browser "
+"widths and resolutions. <br><br> Hide Morph menu if browser width or screen "
+"resolution (in pixels) is between..."
+msgstr ""
+
+#: morph.php:634
+msgid "..and:"
+msgstr ""
+
+#: morph.php:643
+msgid "Advanced: Hide theme menu, logo, search etc."
+msgstr ""
+
+#: morph.php:644
+msgid ""
+"If you have set Morph to show only at a certain resolution, know the classes/"
+"IDs of your theme menu, logo and search, and would like to hide them when "
+"Morph is visible, enter the classes/IDs into this field (example: \"#my-"
+"theme-menu\"). Multiple classes/IDs can be entered (separate with comma as "
+"you would in a stylesheet."
+msgstr ""
+
+#: morph.php:999
+msgid "Morph Widgets"
+msgstr ""
+
+#: morph.php:1001
+msgid "Drag widgets here"
+msgstr ""
