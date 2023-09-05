@@ -33,9 +33,7 @@ get_header();
                                 } ?>
                                 <div class="compteur-fraise">
                                     <?php
-                                    $compteur = get_field('compteur-fraise'); // Remplacez 'compteur' par le nom de votre champ ACF.
-
-                                    // Afficher le compteur avec des boutons "+" et "-":
+                                    $compteur = get_field('compteur-fraise');
                                     ?>
                                     <div class="compteur">
                                         <div class="valeur">
@@ -61,9 +59,7 @@ get_header();
                                 } ?>
                                 <div class="compteur-fraise">
                                     <?php
-                                    $compteur = get_field('compteur-pamplemousse'); // Remplacez 'compteur' par le nom de votre champ ACF.
-
-                                    // Afficher le compteur avec des boutons "+" et "-":
+                                    $compteur = get_field('compteur-pamplemousse');
                                     ?>
                                     <div class="compteur">
                                         <div class="valeur">
@@ -89,9 +85,7 @@ get_header();
                                 } ?>
                                 <div class="compteur-fraise">
                                     <?php
-                                    $compteur = get_field('compteur-framboise'); // Remplacez 'compteur' par le nom de votre champ ACF.
-
-                                    // Afficher le compteur avec des boutons "+" et "-":
+                                    $compteur = get_field('compteur-framboise');
                                     ?>
                                     <div class="compteur">
                                         <div class="valeur">
@@ -117,9 +111,7 @@ get_header();
                                 } ?>
                                 <div class="compteur-fraise">
                                     <?php
-                                    $compteur = get_field('compteur-citron'); // Remplacez 'compteur' par le nom de votre champ ACF.
-
-                                    // Afficher le compteur avec des boutons "+" et "-":
+                                    $compteur = get_field('compteur-citron');
                                     ?>
                                     <div class="compteur">
                                         <div class="valeur">
