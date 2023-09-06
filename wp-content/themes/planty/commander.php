@@ -129,14 +129,15 @@ get_header();
                             </div>
                         </div>
                     </section>
+                    <section class="formulaire-commande">
+                        <div>
+                            <?php echo do_shortcode('[contact-form-7 id="4836279" title="form commande"]');
+                            ?>
+                        </div>
+                    </section>
                 </section>
 
-                <section class="formulaire-commande">
-                    <div>
-                        <?php echo do_shortcode('[contact-form-7 id="4836279" title="form commande"]');
-                        ?>
-                    </div>
-                </section>
+
             </section>
     <?php
         endwhile;

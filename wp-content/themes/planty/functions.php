@@ -1,10 +1,24 @@
 <?php
 
+// Déclarer le JS
+
 // Déclaration du Header et du Footer
-register_nav_menus(array(
-    'main' => 'Menu Principal',
-    'footer' => 'Bas de page',
-));
+function register_my_menu()
+{
+    register_nav_menus(array(
+        'main' => 'Menu Principal',
+        'footer' => 'Bas de page',
+    ));
+}
+add_action('after_setup_theme', 'register_my_menu');
+function start_el(&$output, $data_object, $depth = 0, $args = null, $current_object_id = 0)
+{
+    // Restores the more descriptive, specific name for use within this method.
+    $menu_item = $data_object;
+    $atts['aria-current'] = $menu_item->current ? 'page' : '';
+    $atts = apply_filters('nav_menu_link_attributes', $atts, $menu_item, $args, $depth);
+}
+
 function planty_admin_lien_nav($items, $args)
 {
     // Vérifiez si l'emplacement du menu correspond à celui du pied de page
@@ -22,6 +36,13 @@ add_filter('wp_nav_menu_items', 'planty_admin_lien_nav', 10, 2);
 
 function planty_register_assets()
 {
+    wp_enqueue_script(
+        'planty',
+        get_template_directory_uri() . '/assets/js/script.js',
+        array('jquery'),
+        '1.0',
+        true
+    );
 
     // Chargement de la feuille du style du theme parent
     wp_enqueue_style('planty-theme', get_template_directory_uri() . '/style.css');
