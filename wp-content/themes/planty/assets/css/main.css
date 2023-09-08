@@ -119,9 +119,6 @@ li a:hover {
   .header {
     padding: 5px 1vw;
   }
-  .header .header {
-    width: 200px;
-  }
 
   .site__header__menu {
     display: none;
@@ -147,11 +144,11 @@ li a:hover {
     width: 40px;
     height: 40px;
   }
-  .header .logo {
-    display: none;
-  }
 }
 @media screen and (max-width: 321px) {
+  .header .logo {
+    width: 120px;
+  }
   .site__header__menu li {
     padding: 15px 0;
   }

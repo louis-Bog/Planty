@@ -13,7 +13,7 @@ function register_my_menu()
 add_action('after_setup_theme', 'register_my_menu');
 function start_el(&$output, $data_object, $depth = 0, $args = null, $current_object_id = 0)
 {
-    // Restores the more descriptive, specific name for use within this method.
+
     $menu_item = $data_object;
     $atts['aria-current'] = $menu_item->current ? 'page' : '';
     $atts = apply_filters('nav_menu_link_attributes', $atts, $menu_item, $args, $depth);
